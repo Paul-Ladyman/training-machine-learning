@@ -1,0 +1,58 @@
+Machine Learning Training
+-----------------------
+
+A subset of artificial intelligence. Allows computers to "learn" with data without being explicitly told the answers using statistical techniques. This subject has become very relevant lately due to the rise of big data.
+
+Many companies will hoard data and refuse to share it. This leads to publicly available data being limited and of poor quality which limits what it can do in a machine learning context. Its stifling innovation. Transport data is a good example. It used to be closed until the ODI persuaded them to open it up, allowing useful services that surface that data like Google Maps.
+
+There's also a trust issue with the data that's being gathered. Particularly around personal data.
+
+Statistical techniques
+---------------------
+
+Averages
+-- Mean (all numbers added and divided by the number of values)
+-- Trimmed Mean (ignoring outliers at both ends of the dataset often compared with the median to examine how much the outliers affect the shape of the data)
+-- Mode (most repeated number)
+-- Median (middle number) - the most robust as its not affected by outliers
+
+The averages give the pattern and shape of the dataset. These can give clues as to what kind of dataset it is. Outliers can confuse this process if they are given too much weight. The human brain is good at dealing with and ignoring outliers but this is difficult to build into a machine learning algorithm.
+
+Different stories can be told by using different kinds of averages and statistical techniques. The media uses this technique a lot.
+
+Skew
+-- Positive - long tail, most data points on the low end
+-- Negative - short tail, most data points on the high end
+-- Normal distribution - bell curve
+-- Non-normal distribution - looks random
+
+The averages can tell you about the skew of the data. For normal distributions the three averages should be mostly the same and therefore aren't important.
+
+5 number summary
+This can be represented as a box and whiskers diagram using the minimum, maximum, 1/4 and 3/4 values. This tells you where 50%, or the typical values lie.
+
+Trends
+Lines of best fit
+-- average y=c
+-- linear y=mx+c
+-- quadratic y=ax^2 + bx + c
+
+Be careful of under and over fitting, forcing trends onto datasets.
+
+Big data
+-------
+
+A big data system must be able to handle and produce accurate results in the face of the following problems:
+
+Volume
+- data is growing exponentially
+Velocity
+- data is collected extremely quickly
+Variety
+- there are many different data sources and formats. Different data sources may be able to answer questions not directly related to the source
+Veracity
+- Big data cannot easily be manually inspected for quality
+
+"Calling bullshit on big data" lecture 5 on big data on youtube is interesting.
+r2d3.us is an interseting overview of machine learning concepts
+course notes at training.theodi.org/bbc/ML101
